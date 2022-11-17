@@ -1,0 +1,12 @@
+import React from 'react'
+
+const ChatListItem = () => {
+  return (
+    <div>
+      ChatListItem
+      ChatListItem
+    </div>
+  )
+}
+
+export default ChatListItem
