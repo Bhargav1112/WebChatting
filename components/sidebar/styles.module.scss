@@ -1,0 +1,40 @@
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    background-color: #282A3A;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+
+    .logo {
+        text-align: center;
+        color: #678983;
+        padding: 10px;
+
+        svg {
+            font-size: 30px;
+        }
+    }
+
+    ul {
+        padding: 0 16px;
+
+        li {
+            list-style-type: none;
+            padding: 24px 0;
+
+            a {
+                color: #a1a3a9;
+
+                &:active,
+                &:focus {
+                    color: #fff;
+                }
+
+                svg {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}

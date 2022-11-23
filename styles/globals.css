@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }
@@ -28,9 +28,4 @@ a {
 
 .main_wrapper {
   display: flex;
-}
-
-.sidebar {
-  width: 500px;
-  background-color: brown;
 }
